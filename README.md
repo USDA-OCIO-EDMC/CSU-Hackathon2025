@@ -16,8 +16,3 @@ Populate the Team, App & Challenges info below and update as needed
 List the full names, email address & Github username of your teammates
 
 Full Name || e-mail address || Github Username
-
-
-**Specifics**
--What is the name of your Team?
--Presentation on 
