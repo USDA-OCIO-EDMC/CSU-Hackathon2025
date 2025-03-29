@@ -1,4 +1,5 @@
 Team Members:
+
     Name: Ethan Luu
     Email: eluu@colostate.edu
     Github username: eluu02
