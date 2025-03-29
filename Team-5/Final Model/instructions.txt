@@ -1,0 +1,2 @@
+Please use a hill shaded value from the validation (or any data set you wish to test)
+The file uses an a star algorithm as well as well as grid based movement
