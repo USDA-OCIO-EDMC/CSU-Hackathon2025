@@ -12,7 +12,11 @@ Clone this repository and rename to the name of your team, and Make it private
 
 List the full names, email address & Github username of your teammates
 
-Full Name || e-mail address || Github Username
+|Full Name | e-mail address | Github Username|
+|----------|-----------------|---------------|
+| Nathan Crane | nathan.crane@colostate.edu | ncrane3d |
+| Krithika Turaka| krithi18@colostate.edu | krithikat18 |
+| Carter Hickerson | carter.hickerson@colostate.edu | Chickerson64 |
 
 **Instructions:**
 
