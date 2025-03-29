@@ -70,8 +70,8 @@ def main():
             grid[x, 18, 2] = 1
 
     # Adjust number of trees and rocks for larger grid
-    num_trees = 20  # More trees
-    num_rocks = 12  # More rocks
+    num_trees = 150  # More trees
+    num_rocks = 120  # More rocks
     
     object_positions = []
     MAX_SLOPE = 45
