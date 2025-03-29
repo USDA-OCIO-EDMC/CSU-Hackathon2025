@@ -13,8 +13,11 @@ Clone this repository and rename to the name of your team, and Make it private
 List the full names, email address & Github username of your teammates
 
 Gavriella Santiago || gavi021@colostate.edu || gavi021
+
 Jocelyn Villegas || jsuzette@colostte.edu || jocelynvillegas
+
 Leanne Lightsey || leannel@colostate.edu || leAnn1970
+
 George Ley || george90@colostate.edu || GeorgeLey
 
 **Instructions:**
