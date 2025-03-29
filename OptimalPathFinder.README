@@ -1,0 +1,41 @@
+Files Included
+=========================
+OptimalPathFinder.ipynb 
+|-- TertiaryCostMap.py - Map and Obstacle Generator
+|-- A.py - Algorithm for Path Optimization
+|-- Visualizer.py - Data Visualization
+|-- Learn.py - Model Trainer and Statistics
+|-- robot_class.py - Robot Movement
+||-- South_Clear_Creak - Data Directory
+|-- Overlay.ipynp - Visual Aid Generation
+|-- plot.tif - Generated Visual Aid
+
+Additional Notes: 
+- Utilize a GPU to handle large arrays that will be manipulated using rastor
+Methodology
+=========================
+1)  Converting relevant tif files to maniputable arrays that represent data *Extracting the arrays)
+—---------------------------------------------------------------------
+Using rasterio package functions to derive arrays of the correct dimensions from given LiDAR data where 0 = Traversable and 1 = Obstacle 
+Extract each band within the data into a 2-D array
+
+Create a tertiary cost map
+Set all indices in array to traversable by default (0), paths are traversable and unique (2), and obstacles are (1)
+
+2) Generating random coordinates within our graph to become obstacles
+—--------------------------------------------------------------------
+use rand function and a loop to assign indices to 0
+
+3) Path coordinate values should override any obstacles
+—------------------------------------------------------------------
+
+4)  Representing our data functions
+—-------------------------------------------------------------------
+Derive a graph/visual that represents the path a robot can take - there exist two types and thus two opportunites for 
+our data to be represented
+
+Probabilistic Graph: Using percentage/ratio value to represent how likely a point is to be traversable
+
+Binary Graph: Using 0's and 1's as a "Boolean graph"- is the point traversable, yes or no?
+classify 0 and 2 as 0
+classify 1 as 1
