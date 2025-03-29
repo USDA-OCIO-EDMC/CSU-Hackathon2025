@@ -1,2 +1,7 @@
 Please use a hill shaded value from the validation (or any data set you wish to test)
-The file uses an a star algorithm as well as well as grid based movement
+The file uses an a star algorithm as well as well as grid based movement, The program can find a user at any given data data point using the grid method, entries must be done in grid values and not coordinates, this is due to the data being downscaled to run faster on CPU Machines
+
+Please Enter a valid value that is possible to be reached (cant enter a value in a lake or another obstruction)
+The program will auotmatically deal with erroneous user entries
+
+Cannot put the robot out the bounds of the .tif file meaning if the value isn't defined as a real value (not NaN by numpy in the .tif)
