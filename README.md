@@ -15,6 +15,8 @@ List the full names, email address & Github username of your teammates
 |-|-|-|
 | Miles Mizia | miles.mizia@colostate.edu | MIMJA156 |
 | Ethan Ulrich | ethanju@colostate.edu | EthanUlrich |
+| Kyle Pham | phamky@colostate.edu | kylephamn |
+
 
 
 **Instructions:**
