@@ -15,8 +15,9 @@ List the full names, email address & Github username of your teammates
 Full Name || e-mail address || Github Username
 
 **Instructions:**
-•	Create branch as Team Name and Path (example, Team 7)
-•	Create folder as Team Name and Path (example, Team 7 and Path 1)
-•	Add a README with info on runtime, all approaches taken, and your final approach
-•	Push code and presentation to branch
+
+-Create branch as Team Name and Path (example, Team 7)
+-Create folder as Team Name and Path (example, Team 7 and Path 1)
+-Add a README with info on runtime, all approaches taken, and your final approach
+-Push code and presentation to branch
 
