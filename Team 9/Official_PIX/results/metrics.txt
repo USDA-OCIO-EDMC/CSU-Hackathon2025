@@ -1,0 +1,4 @@
+Average PSNR: 24.16 dB
+Average BCE: 0.1211
+Total samples: 48
+Model checkpoint: ./checkpoints/latest.pth

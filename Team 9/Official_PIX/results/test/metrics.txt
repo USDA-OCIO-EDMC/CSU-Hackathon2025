@@ -1,0 +1,6 @@
+Dataset: facades
+Checkpoint: ./checkpoints/facades/latest.pth
+Direction: AtoB
+Number of test images: 106
+Average PSNR: 7.4859 dB
+Average L1 Loss: 0.763386
