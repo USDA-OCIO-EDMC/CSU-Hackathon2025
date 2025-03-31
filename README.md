@@ -10,7 +10,7 @@
 > Team:
 Vishnu Jawahar - vishnu.lvj@gmail.com
 Luke - luke.burrough@colostate.edu
-Oshin - Oshin.Tiwari@colostate.edu
+Oshin - oshintiwari0928@gmail.com
 Samuel - Samuel.Chamberlain@rams.colostate.edu
 
 This project implements a powerful Bidirectional A* pathfinding algorithm with animated search visualization and support for real-world road network data from shapefiles. The algorithm is enhanced to detect and insert missing intersection nodes in the graph and displays real-time F (total), G (cost), and H (heuristic) values on the screen.
