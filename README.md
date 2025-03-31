@@ -5,7 +5,13 @@
 # 🛣️ Bidirectional A* Pathfinding on Real Road Networks with Intersections & F/G/H Simulation
 
 > 🚀 Hackathon Project - March 29, 2025  
-> ✍️ Author: Vishnu Pradhaban J
+> ✍️ Author: Vishnu Pradhaban J and Team 
+>
+> Team:
+Vishnu Jawahar - vishnu.lvj@gmail.com
+Luke - luke.burrough@colostate.edu
+Oshin - Oshin.Tiwari@colostate.edu
+Samuel - Samuel.Chamberlain@rams.colostate.edu
 
 This project implements a powerful Bidirectional A* pathfinding algorithm with animated search visualization and support for real-world road network data from shapefiles. The algorithm is enhanced to detect and insert missing intersection nodes in the graph and displays real-time F (total), G (cost), and H (heuristic) values on the screen.
 
@@ -48,11 +54,7 @@ This project implements a powerful Bidirectional A* pathfinding algorithm with a
 pip install geopandas networkx shapely matplotlib
 
 
-Team:
-Vishnu Jawahar - vishnu.lvj@gmail.com
-Luke - luke.burrough@colostate.edu
-Oshin - Oshin.Tiwari@colostate.edu
-Samuel - Samuel.Chamberlain@rams.colostate.edu
+
 
 
 Run the command to run this code:
