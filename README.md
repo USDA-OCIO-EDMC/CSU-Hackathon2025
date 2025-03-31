@@ -20,10 +20,11 @@ This module tackles the task of detecting roads from hillshade LiDAR data using 
 ### 🛠️ Tools & Libraries
 Python, PyTorch, Rasterio, NumPy, Matplotlib, Scikit-learn
 
-### 📂 File Outputs
-- `prediction.tif` — Final predicted binary road mask
-- `.shp` — Vectorized shapefile of detected roads (optional)
-- Score output — Evaluation against ground truth using MCC
+### 📂 Files
+- `Prompt 1 Solution.ipynb` – Full notebook for segmentation
+- `Upper_Willow_Creek_BareEarth_Hillshade_1m_1_uint8.tif` – Input satellite hillshade (not shown in repo)
+- `prediction.tif` – Binary mask output (saved by code)
+- `Upper_Willow_Creek_Roads_Buffer_3_Mask_1.tif` – Ground truth for MCC evaluation
 
 ### 🚀 How to Run Challenge 1
 ```bash
