@@ -120,10 +120,16 @@ goal = get_nearest_node(G, fixed_goal)
 Challenge 1 outputs a binary mask of detected roads from hillshade images. This mask can be vectorized into a shapefile which Challenge 2 then consumes to perform real-time A* pathfinding. This mirrors a real-world robotic workflow from terrain understanding to autonomous navigation.
 
 Drone captures LIDAR
+
 LIDAR → DEM / hillshade image
+
 Image → ML segmentation model → binary road mask (raster)
+
 Raster → Vector conversion (e.g., .shp, GeoJSON)
+
 Vector → Graph → use networkx for pathfinding
+
 Visualize or simulate rover movement
+
 
 ![image](https://github.com/user-attachments/assets/a02bac14-93fe-4cc6-a572-f9f3e31e32cc)
