@@ -5,9 +5,9 @@
 This module tackles the task of detecting roads from hillshade LiDAR data using a custom-trained U-Net-based segmentation model.
 
 ### 👩‍💻 Team
+- Oshin Tiwari - [oshintiwari0928@gmail.com](mailto:oshintiwari0928@gmail.com)
 - Vishnu Jawahar - [vishnu.lvj@gmail.com](mailto:vishnu.lvj@gmail.com)
 - Luke Burrough - [luke.burrough@colostate.edu](mailto:luke.burrough@colostate.edu)
-- Oshin Tiwari - [oshintiwari0928@gmail.com](mailto:oshintiwari0928@gmail.com)
 - Samuel Chamberlain - [Samuel.Chamberlain@rams.colostate.edu](mailto:Samuel.Chamberlain@rams.colostate.edu)
 
 ### 📌 Key Features
@@ -22,7 +22,7 @@ Python, PyTorch, Rasterio, NumPy, Matplotlib, Scikit-learn
 
 ### 📂 Files
 - `Prompt 1 Solution.ipynb` – Full notebook for segmentation
-- `Upper_Willow_Creek_BareEarth_Hillshade_1m_1_uint8.tif` – Input satellite hillshade (not shown in repo)
+- `Upper_Willow_Creek_BareEarth_Hillshade_1m_1_uint8.tif` – Input satellite hillshade 
 - `prediction.tif` – Binary mask output (saved by code)
 - `Upper_Willow_Creek_Roads_Buffer_3_Mask_1.tif` – Ground truth for MCC evaluation
 
@@ -57,6 +57,8 @@ print("✅ MCC Score:", score)
 ```
 
 ---
+
+![image](https://github.com/user-attachments/assets/771d2d23-d8a0-427d-bbdf-906405b504c2)
 
 ## 🚗 Challenge 2: Bidirectional A* Pathfinding on Real Road Networks with F/G/H Simulation
 
@@ -117,3 +119,11 @@ goal = get_nearest_node(G, fixed_goal)
 
 Challenge 1 outputs a binary mask of detected roads from hillshade images. This mask can be vectorized into a shapefile which Challenge 2 then consumes to perform real-time A* pathfinding. This mirrors a real-world robotic workflow from terrain understanding to autonomous navigation.
 
+Drone captures LIDAR
+LIDAR → DEM / hillshade image
+Image → ML segmentation model → binary road mask (raster)
+Raster → Vector conversion (e.g., .shp, GeoJSON)
+Vector → Graph → use networkx for pathfinding
+Visualize or simulate rover movement
+
+![image](https://github.com/user-attachments/assets/a02bac14-93fe-4cc6-a572-f9f3e31e32cc)
