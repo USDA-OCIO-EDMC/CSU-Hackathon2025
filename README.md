@@ -93,12 +93,13 @@ pip install geopandas networkx shapely matplotlib
 python3 hackathonProb.py
 ```
 
-### 📁 Files Used
-```
-hackathonProb.py                  # Main script
-South_Clear_Creek_Roads.shp      # Shapefile road network
-README.md                         # This documentation
-```
+### 📂 Files
+- `main - Prompt 2 - Luke.py` – Main file to launch the pathfinding
+- `robot_class - Prompt 2 - Luke.py` – Robot class with navigation logic
+- `edge - - Prompt 2 - Luke.py` – Graph edge definitions
+- `node - Prompt 2 - Luke .py` – Node structure with cost calculations
+- `South_Clear_Creek_Roads.shp` – Real road network shapefile
+- `prompt2 solution.py` – Alternate entry-point or merged script
 
 ### 📍 Sample Coordinate Setup
 ```python
@@ -107,20 +108,6 @@ fixed_goal = (x2, y2)
 
 start = get_nearest_node(G, fixed_start)
 goal = get_nearest_node(G, fixed_goal)
-```
-
----
-
-## 📌 Folder Structure
-
-```
-├── segment_roads.py             # Challenge 1 segmentation
-├── hackathonProb.py             # Challenge 2 pathfinding
-├── model.pth                    # Trained segmentation model
-├── prediction.tif               # Output mask
-├── South_Clear_Creek_Roads.shp  # Road shapefile
-├── Upper_Willow_Creek_*.tif     # Input hillshade or DEM tiles
-├── README.md                    # This file
 ```
 
 ---
