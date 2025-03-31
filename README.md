@@ -48,6 +48,11 @@ This project implements a powerful Bidirectional A* pathfinding algorithm with a
 pip install geopandas networkx shapely matplotlib
 
 
+Team:
+Vishnu Jawahar - vishnu.lvj@gmail.com
+Luke - luke.burrough@colostate.edu
+Oshin - Oshin.Tiwari@colostate.edu
+Samuel - Samuel.Chamberlain@rams.colostate.edu
 
 
 Run the command to run this code:
